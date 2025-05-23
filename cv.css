@@ -1,0 +1,38 @@
+
+.container div{
+        box-shadow: 1px 1px 10px rgba(0,0,0);
+}
+
+
+.section h1, h2{
+    color: #e64343;
+    text-align: center;
+}
+  
+ul {
+    padding-left: 20px;
+}
+  
+.contact p {
+    margin: 5px 0;
+}
+  
+.section{
+    margin: 40px auto;
+    margin-bottom: 25px;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(194, 187, 187, 0.1);
+    background-color: #0b596d;
+    transition: 1s;
+}
+
+.section:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+    margin-left: 25px;
+    margin-right: 25px;
+    transition-timing-function: ease-out;
+}

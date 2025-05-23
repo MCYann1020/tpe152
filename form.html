@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="style.css" rel="stylesheet">
+    <link href="form.css" rel="stylesheet">
+</head>
+<body>
+    <div class="menu">
+        <button class="menu-button">Menu</button>
+        <div class="menu-content">
+          <a href="cv.html">CV</a>
+          <a href="pfolio.html">Portfolio</a>
+          <a href="form.html">Formulaire</a>
+        </div>
+    </div>
+    <h1>Bien vouloir remplir le formulaire svp</h1>
+
+    <form method="" action="post">
+        <label for="nom"> Le nom :</br>
+            <input type="text" id="nom" required></br>
+        </label>
+        <label for="prénom"> Le prénom :</br>
+            <input type="text" id="nom" required></br>
+        </label>
+        <label for="sexe"> Le sexe :</br>
+            <input type="radio" id="sexe" name="masculin" checked>Masculin </br>
+            <input type="radio" id="sexe" name="masculin">Féminin </br>
+        </label>
+        <label for="emain"> Email :</br>
+            <input type="email" id="nom" required></br>
+        </label>
+        <label for="nation"> La nationalité :</br>
+            <select id="nation" name="nation">
+                <option value="Cameroun">Cameroun</option>
+                <option value="Angola">Angola</option>
+                <option value="Nigéria">Nigéria</option>
+                <option value="Burundi">Burundi</option>
+                <option value="Senegal">Senegal</option>
+            </select></br>
+        </label>
+        <label for="spécialité"> Spécialité choisie:</br>
+            <input type="checkbox" id="nom" name="reseau">Réseau et Communication</br>
+            <input type="checkbox" id="nom" name="program">Programmation</br>
+            <input type="checkbox" id="nom" name="web">Developpement Web</br>
+            <input type="checkbox" id="nom" name="archi">Architecture ordinateurs</br>
+            <input type="checkbox" id="nom" name="logiciel">Génie logiciel</br>
+            <input type="checkbox" id="nom" name="jeux">Developpeur d'applications</br>
+        </label>
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+        
+    </form>
+</body>
+</html>
